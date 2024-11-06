@@ -18,7 +18,7 @@ struct ReadingState {
 
 fn main() {
     let app = Application::builder()
-        .application_id("com.example.speed_reader_gnome")
+        .application_id("com.example.speedreader")
         .build();
 
     app.connect_activate(build_ui);
@@ -29,7 +29,7 @@ fn main() {
 fn build_ui(app: &Application) {
     let window = ApplicationWindow::builder()
         .application(app)
-        .title("Speed Reader GNOME")
+        .title("Speed Reader")
         .default_width(600)
         .default_height(400)
         .build();
