@@ -32,7 +32,7 @@ Este projeto possui algumas dependências externas que devem ser instaladas ante
 Clone o repositório do projeto:
 ```sh
 git clone github.com:lucatsf/speedreader.git
-cd speed_reader_gnome
+cd speedreader
 ```
 
 ### Compilando e Executando
@@ -67,7 +67,7 @@ Adicione aqui algumas capturas de tela do aplicativo em funcionamento para mostr
 ## Contato
 Se você tiver dúvidas ou sugestões, entre em contato:
 - **Nome**: lucatsf
-- **Email**: [seuemail@exemplo.com](lucastorresfellicio@gmail.com)
+- **Email**: [lucastorresfellicio@gmail.com](lucastorresfellicio@gmail.com)
 
 Fique à vontade para enviar feedbacks ou sugestões de melhorias!
 
