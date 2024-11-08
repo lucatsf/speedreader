@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=SpeedReader
+Exec=speedreader
+Icon=org.flatpak.SpeedReader
+Type=Application
+Categories=Utility;Education;

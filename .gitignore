@@ -1,1 +1,7 @@
 /target
+.flatpak-builder
+.idea
+*.iml
+builddir
+repo
+org.flatpak.speedreader.yml
