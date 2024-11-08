@@ -27,6 +27,8 @@ fn main() {
 }
 
 fn build_ui(app: &Application) {
+    gtk::Window::set_default_icon_name("/assets/icon.ico");
+
     let window = ApplicationWindow::builder()
         .application(app)
         .title("Speed Reader")
