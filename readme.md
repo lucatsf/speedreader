@@ -17,7 +17,22 @@
 - **Serde**: Usada para serializar e desserializar o estado da leitura.
 
 ## Instalação e Execução
-Siga os passos abaixo para instalar e executar o aplicativo no seu ambiente:
+Siga os passos abaixo para instalar e executar o aplicativo no seu ambiente Linux.
+
+**Nota**: Este aplicativo foi desenvolvido e testado em um ambiente GNOME. Pode não funcionar corretamente em outros ambientes de desktop.
+
+faça o download do arquivo zip e extraia o conteúdo aqui [speedreader.zip](https://github.com/lucatsf/speedreader/releases/download/v1.0.0/speedreader.zip)
+```sh
+unzip speedreader.zip && \
+cd build/ && \
+chmod +x install.sh && \
+sudo ./install.sh
+```
+
+Desinstalar o aplicativo
+```sh
+./uninstall.sh
+```
 
 ### Dependências
 Este projeto possui algumas dependências externas que devem ser instaladas antes de compilá-lo. Certifique-se de ter:
