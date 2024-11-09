@@ -6,3 +6,5 @@ builddir
 repo
 org.flatpak.speedreader.yml
 SpeedReader.flatpak
+build
+release-*
