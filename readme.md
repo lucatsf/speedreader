@@ -1,4 +1,6 @@
-# Speed Reader GNOME
+# Speed Reader
+
+![alt text](assets/image.png)
 
 **Speed Reader GNOME** é um aplicativo de leitura rápida projetado para ambientes GNOME. Ele ajuda os usuários a melhorar a velocidade de leitura ao exibir palavras de documentos PDF uma de cada vez no centro da tela, com uma interface amigável e controle de velocidade ajustável.
 
@@ -19,9 +21,9 @@
 ## Instalação e Execução
 Siga os passos abaixo para instalar e executar o aplicativo no seu ambiente Linux.
 
-**Nota**: Este aplicativo foi desenvolvido e testado em um ambiente GNOME. Pode não funcionar corretamente em outros ambientes de desktop.
+**Nota**: Este aplicativo foi desenvolvido e testado em um ambiente linux GNOME. Pode não funcionar corretamente em outros ambientes de desktop.
 
-faça o download do arquivo zip e extraia o conteúdo aqui [speedreader.zip](https://github.com/lucatsf/speedreader/releases/download/v1.0.0/speedreader.zip)
+faça o download do arquivo zip e extraia o conteúdo [speedreader.zip](https://github.com/lucatsf/speedreader/releases/download/v1.0.0/speedreader.zip)
 ```sh
 unzip speedreader.zip && \
 cd build/ && \
@@ -34,7 +36,7 @@ Desinstalar o aplicativo
 ./uninstall.sh
 ```
 
-### Dependências
+### Build local e Dependências
 Este projeto possui algumas dependências externas que devem ser instaladas antes de compilá-lo. Certifique-se de ter:
 - **Rust**: O compilador e gerenciador de pacotes do Rust. Instalação recomendada via [rustup](https://rustup.rs/).
 - **GTK 4** e **Poppler**: Certifique-se de ter as bibliotecas GTK 4 e Poppler instaladas em seu sistema.
@@ -65,26 +67,8 @@ cargo run
    - **Avançar/Retroceder**: Use os botões de avançar (>>) ou retroceder (<<) para navegar entre as palavras manualmente.
 5. **Visualizar Tempo Restante**: O tempo estimado restante de leitura será mostrado na parte inferior.
 
-## Contribuições
-Contribuições são bem-vindas! Se você quiser melhorar este projeto, siga os passos:
-1. Faça um fork do repositório.
-2. Crie uma nova branch com suas modificações.
-3. Envie um pull request descrevendo suas alterações.
-
-Certifique-se de seguir o estilo de código estabelecido e documentar suas alterações de forma adequada.
-
 ## Licença
 Este projeto está licenciado sob a **MIT License**. Sinta-se à vontade para usar, modificar e distribuir à vontade.
-
-## Capturas de Tela
-Adicione aqui algumas capturas de tela do aplicativo em funcionamento para mostrar a interface.
-
-## Contato
-Se você tiver dúvidas ou sugestões, entre em contato:
-- **Nome**: lucatsf
-- **Email**: [lucastorresfellicio@gmail.com](lucastorresfellicio@gmail.com)
-
-Fique à vontade para enviar feedbacks ou sugestões de melhorias!
 
 ---
 Espero que esse README dê uma boa introdução ao projeto. Se precisar de alguma outra seção ou tiver outras ideias, é só me avisar!
